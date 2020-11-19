@@ -541,6 +541,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Flags.resx</DependentUpon>
     </Compile>
+    <Compile Include="Property\OptionProperties.ja.Designer.vb">
+      <DependentUpon>OptionProperties.ja.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
     <Compile Include="Property\OptionProperties.ro.Designer.vb">
       <DependentUpon>OptionProperties.ro.resx</DependentUpon>
       <AutoGen>True</AutoGen>
@@ -567,6 +572,11 @@
       <DependentUpon>OptionProperties.hu.resx</DependentUpon>
     </Compile>
     <Compile Include="Property\Countries.vb" />
+    <Compile Include="Report\ReportStrings.ja.Designer.vb">
+      <DependentUpon>ReportStrings.ja.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
     <Compile Include="Report\ReportStrings.ro.Designer.vb">
       <DependentUpon>ReportStrings.ro.resx</DependentUpon>
       <AutoGen>True</AutoGen>
@@ -898,6 +908,9 @@
     <EmbeddedResource Include="Explorer.it.resx">
       <DependentUpon>Explorer.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Explorer.ja.resx">
+      <DependentUpon>Explorer.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="History.ar-JO.resx">
       <DependentUpon>History.vb</DependentUpon>
     </EmbeddedResource>
@@ -911,6 +924,9 @@
       <DependentUpon>History.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="History.it.resx">
+      <DependentUpon>History.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="History.ja.resx">
       <DependentUpon>History.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="History.nl.resx">
@@ -931,6 +947,9 @@
     <EmbeddedResource Include="License.it.resx">
       <DependentUpon>License.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="License.ja.resx">
+      <DependentUpon>License.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="License.ru.resx">
       <DependentUpon>License.vb</DependentUpon>
       <SubType>Designer</SubType>
@@ -947,6 +966,9 @@
     <EmbeddedResource Include="Listener.it.resx">
       <DependentUpon>Listener.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Listener.ja.resx">
+      <DependentUpon>Listener.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties.ar-JO.resx">
       <DependentUpon>Properties.vb</DependentUpon>
     </EmbeddedResource>
@@ -955,6 +977,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties.it.resx">
       <DependentUpon>Properties.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties.ja.resx">
+      <DependentUpon>Properties.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Property\OptionProperties.ja.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>OptionProperties.ja.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Property\OptionProperties.ar-JO.resx" />
     <EmbeddedResource Include="Property\OptionProperties.es.resx" />
@@ -967,6 +998,14 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Property\Options.it.resx">
       <DependentUpon>Options.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Property\Options.ja.resx">
+      <DependentUpon>Options.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\ReportStrings.ja.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ReportStrings.ja.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
     </EmbeddedResource>
     <EmbeddedResource Include="Report\ReportStrings.ar-JO.resx" />
     <EmbeddedResource Include="Report\ReportStrings.de.resx" />
@@ -1014,6 +1053,9 @@
       <DependentUpon>SafeMode.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SafeMode.it.resx">
+      <DependentUpon>SafeMode.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SafeMode.ja.resx">
       <DependentUpon>SafeMode.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SafeMode.nl.resx">
@@ -1309,6 +1351,9 @@
     <EmbeddedResource Include="Schedule\EditAction.it.resx">
       <DependentUpon>EditAction.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Schedule\EditAction.ja.resx">
+      <DependentUpon>EditAction.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Schedule\EditAction.nl.resx">
       <DependentUpon>EditAction.vb</DependentUpon>
     </EmbeddedResource>
@@ -1331,6 +1376,9 @@
       <DependentUpon>EditTask.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Schedule\EditTask.it.resx">
+      <DependentUpon>EditTask.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Schedule\EditTask.ja.resx">
       <DependentUpon>EditTask.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Schedule\EditTask.nl.resx">
@@ -1357,6 +1405,9 @@
     <EmbeddedResource Include="Schedule\EditTrigger.it.resx">
       <DependentUpon>EditTrigger.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Schedule\EditTrigger.ja.resx">
+      <DependentUpon>EditTrigger.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Schedule\EditTrigger.nl.resx">
       <DependentUpon>EditTrigger.vb</DependentUpon>
     </EmbeddedResource>
@@ -1379,6 +1430,9 @@
       <DependentUpon>Schedule.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Schedule\Schedule.it.resx">
+      <DependentUpon>Schedule.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Schedule\Schedule.ja.resx">
       <DependentUpon>Schedule.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Schedule\Schedule.nl.resx">
@@ -1405,6 +1459,9 @@
     <EmbeddedResource Include="Search.it.resx">
       <DependentUpon>Search.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Search.ja.resx">
+      <DependentUpon>Search.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Search.nl.resx">
       <DependentUpon>Search.vb</DependentUpon>
     </EmbeddedResource>
@@ -1413,6 +1470,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Search.zh-TW.resx">
       <DependentUpon>Search.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SendMessage.ja.resx">
+      <DependentUpon>SendMessage.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SendMessage.resx">
       <DependentUpon>SendMessage.vb</DependentUpon>
@@ -1430,6 +1490,9 @@
       <DependentUpon>Shutdown.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Shutdown.it.resx">
+      <DependentUpon>Shutdown.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shutdown.ja.resx">
       <DependentUpon>Shutdown.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Shutdown.nl.resx">

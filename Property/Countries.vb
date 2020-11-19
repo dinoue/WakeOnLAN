@@ -35,6 +35,7 @@ Public Class Countries : Inherits StringConverter
             "fr-FR",
             "hu-HU",
             "it-IT",
+            "ja-JP",
             "nl-NL",
             "en-US",
             "ru-RU",
