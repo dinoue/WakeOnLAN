@@ -133,8 +133,8 @@
   <data name="comboBoxRemindLater.Items1" xml:space="preserve">
     <value>After 12 hours</value>
   </data>
-  <data name="radioButtonNo.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 12px, style=Bold</value>
+  <data name="comboBoxRemindLater.Items4" xml:space="preserve">
+    <value>After 4 days</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="comboBoxRemindLater.TabIndex" type="System.Int32, mscorlib">
@@ -142,9 +142,6 @@
   </data>
   <data name="pictureBoxIcon.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
-  </data>
-  <data name="buttonOK.Text" xml:space="preserve">
-    <value>OK</value>
   </data>
   <data name="buttonOK.Size" type="System.Drawing.Size, System.Drawing">
     <value>74, 32</value>
@@ -165,8 +162,8 @@
   <data name="radioButtonNo.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
-  <data name="comboBoxRemindLater.Items4" xml:space="preserve">
-    <value>After 4 days</value>
+  <data name="&gt;&gt;comboBoxRemindLater.Name" xml:space="preserve">
+    <value>comboBoxRemindLater</value>
   </data>
   <data name="&gt;&gt;radioButtonNo.Name" xml:space="preserve">
     <value>radioButtonNo</value>
@@ -195,8 +192,8 @@
   <data name="buttonOK.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
   </data>
-  <data name="&gt;&gt;buttonOK.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="pictureBoxIcon.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>CenterImage</value>
   </data>
   <data name="labelDescription.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>340, 0</value>
@@ -214,7 +211,7 @@
     <value>5</value>
   </data>
   <data name="radioButtonYes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 19</value>
+    <value>174, 19</value>
   </data>
   <data name="buttonOK.Location" type="System.Drawing.Point, System.Drawing">
     <value>350, 168</value>
@@ -249,6 +246,9 @@
   <data name="labelDescription.Size" type="System.Drawing.Size, System.Drawing">
     <value>330, 45</value>
   </data>
+  <data name="&gt;&gt;buttonOK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="comboBoxRemindLater.Items" xml:space="preserve">
     <value>After 30 minutes</value>
   </data>
@@ -258,8 +258,8 @@
   <data name="&gt;&gt;radioButtonYes.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;comboBoxRemindLater.Name" xml:space="preserve">
-    <value>comboBoxRemindLater</value>
+  <data name="radioButtonNo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="&gt;&gt;buttonOK.Parent" xml:space="preserve">
     <value>$this</value>
@@ -270,17 +270,11 @@
   <data name="&gt;&gt;labelDescription.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="labelDescription.Text" xml:space="preserve">
-    <value>You should download updates now. This only takes few minutes depending on your internet connection and ensures you have latest version of the application.</value>
-  </data>
   <data name="&gt;&gt;pictureBoxIcon.Name" xml:space="preserve">
     <value>pictureBoxIcon</value>
   </data>
   <data name="comboBoxRemindLater.Items3" xml:space="preserve">
     <value>After 2 days</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="comboBoxRemindLater.Items6" xml:space="preserve">
     <value>After 10 days</value>
@@ -291,17 +285,17 @@
   <data name="labelTitle.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 14px, style=Bold</value>
   </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>RemindLaterForm</value>
+  </data>
   <data name="&gt;&gt;radioButtonYes.Type" xml:space="preserve">
     <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Remind me later for update</value>
+  <data name="buttonOK.Text" xml:space="preserve">
+    <value>OK</value>
   </data>
   <data name="labelTitle.Location" type="System.Drawing.Point, System.Drawing">
     <value>80, 13</value>
-  </data>
-  <data name="pictureBoxIcon.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>CenterImage</value>
   </data>
   <data name="&gt;&gt;labelTitle.ZOrder" xml:space="preserve">
     <value>6</value>
@@ -315,8 +309,14 @@
   <data name="comboBoxRemindLater.Location" type="System.Drawing.Point, System.Drawing">
     <value>292, 118</value>
   </data>
+  <data name="radioButtonNo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12px, style=Bold</value>
+  </data>
   <data name="&gt;&gt;buttonOK.Name" xml:space="preserve">
     <value>buttonOK</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Remind me later for update</value>
   </data>
   <data name="&gt;&gt;labelDescription.Name" xml:space="preserve">
     <value>labelDescription</value>
@@ -339,8 +339,8 @@
   <data name="pictureBoxIcon.Location" type="System.Drawing.Point, System.Drawing">
     <value>13, 13</value>
   </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>RemindLaterForm</value>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 3, 4</value>
@@ -351,13 +351,16 @@
   <data name="comboBoxRemindLater.Size" type="System.Drawing.Size, System.Drawing">
     <value>132, 23</value>
   </data>
-  <data name="radioButtonNo.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="labelDescription.Text" xml:space="preserve">
+    <value>You should download updates now. This only takes few minutes depending on your internet connection and ensures you have latest version of the application.</value>
   </data>
   <data name="labelDescription.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>ja</value>
   </metadata>
 </root>

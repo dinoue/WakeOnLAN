@@ -141,11 +141,14 @@
   <data name="buttonSkip.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
   </data>
-  <data name="labelUpdate.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>560, 0</value>
+  <data name="pictureBoxIcon.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
   </data>
   <data name="webBrowser.Size" type="System.Drawing.Size, System.Drawing">
     <value>538, 432</value>
+  </data>
+  <data name="&gt;&gt;labelDescription.Name" xml:space="preserve">
+    <value>labelDescription</value>
   </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -171,11 +174,11 @@
   <data name="buttonRemindLater.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12px</value>
+  </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>7, 15</value>
-  </data>
-  <data name="&gt;&gt;pictureBoxIcon.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterParent</value>
@@ -191,9 +194,6 @@
   </data>
   <data name="pictureBoxIcon.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>CenterImage</value>
-  </data>
-  <data name="labelDescription.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>550, 0</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -733,9 +733,6 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
 </value>
   </data>
-  <data name="labelUpdate.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
   <data name="&gt;&gt;buttonUpdate.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -748,8 +745,8 @@
   <data name="&gt;&gt;webBrowser.Name" xml:space="preserve">
     <value>webBrowser</value>
   </data>
-  <data name="buttonSkip.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="&gt;&gt;pictureBoxIcon.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="buttonUpdate.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -757,17 +754,23 @@
   <data name="webBrowser.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>23, 23</value>
   </data>
-  <data name="&gt;&gt;webBrowser.Type" xml:space="preserve">
-    <value>System.Windows.Forms.WebBrowser, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;labelReleaseNotes.Name" xml:space="preserve">
+    <value>labelReleaseNotes</value>
   </data>
   <data name="&gt;&gt;buttonRemindLater.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="&gt;&gt;pictureBoxIcon.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="labelDescription.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="&gt;&gt;buttonUpdate.ZOrder" xml:space="preserve">
     <value>5</value>
+  </data>
+  <data name="labelUpdate.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>560, 0</value>
+  </data>
+  <data name="labelReleaseNotes.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
   </data>
   <data name="&gt;&gt;buttonSkip.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -775,17 +778,11 @@
   <data name="&gt;&gt;webBrowser.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="buttonUpdate.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
-    <value>ImageBeforeText</value>
-  </data>
   <data name="labelUpdate.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 12px</value>
-  </data>
-  <data name="pictureBoxIcon.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
+  <data name="buttonUpdate.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
   </data>
   <data name="&gt;&gt;labelDescription.ZOrder" xml:space="preserve">
     <value>2</value>
@@ -808,17 +805,14 @@
   <data name="labelDescription.Location" type="System.Drawing.Point, System.Drawing">
     <value>91, 50</value>
   </data>
-  <data name="&gt;&gt;labelReleaseNotes.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="labelReleaseNotes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>102, 17</value>
-  </data>
   <data name="&gt;&gt;labelUpdate.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="labelDescription.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;labelUpdate.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="labelDescription.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>550, 0</value>
   </data>
   <data name="labelUpdate.Text" xml:space="preserve">
     <value>A new version of {0} is available!</value>
@@ -826,8 +820,8 @@
   <data name="&gt;&gt;labelDescription.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;labelUpdate.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="&gt;&gt;labelReleaseNotes.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="&gt;&gt;buttonSkip.Parent" xml:space="preserve">
     <value>$this</value>
@@ -838,8 +832,8 @@
   <data name="&gt;&gt;pictureBoxIcon.Name" xml:space="preserve">
     <value>pictureBoxIcon</value>
   </data>
-  <data name="&gt;&gt;labelReleaseNotes.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="labelUpdate.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
   </data>
   <data name="buttonRemindLater.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
@@ -859,8 +853,8 @@
   <data name="&gt;&gt;buttonUpdate.Name" xml:space="preserve">
     <value>buttonUpdate</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Software Update</value>
+  <data name="labelReleaseNotes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 17</value>
   </data>
   <data name="buttonUpdate.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
@@ -886,11 +880,11 @@
   <data name="webBrowser.Location" type="System.Drawing.Point, System.Drawing">
     <value>94, 120</value>
   </data>
-  <data name="&gt;&gt;labelReleaseNotes.Name" xml:space="preserve">
-    <value>labelReleaseNotes</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Software Update</value>
   </data>
-  <data name="&gt;&gt;labelDescription.Name" xml:space="preserve">
-    <value>labelDescription</value>
+  <data name="&gt;&gt;labelReleaseNotes.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;buttonRemindLater.Parent" xml:space="preserve">
     <value>$this</value>
@@ -910,14 +904,17 @@
   <data name="buttonRemindLater.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
     <value>ImageBeforeText</value>
   </data>
-  <data name="labelUpdate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>227, 19</value>
+  <data name="&gt;&gt;webBrowser.Type" xml:space="preserve">
+    <value>System.Windows.Forms.WebBrowser, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="labelReleaseNotes.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="labelReleaseNotes.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+  <data name="labelUpdate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 19</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxIcon.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="buttonSkip.Location" type="System.Drawing.Point, System.Drawing">
     <value>95, 570</value>
@@ -928,7 +925,13 @@
   <data name="labelDescription.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
+  <data name="buttonSkip.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>ja</value>
   </metadata>
 </root>
