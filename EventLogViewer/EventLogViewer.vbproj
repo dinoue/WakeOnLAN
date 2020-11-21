@@ -141,6 +141,11 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Strings.ja.Designer.vb">
+      <DependentUpon>Strings.ja.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
     <Compile Include="Strings.nl.Designer.vb">
       <DependentUpon>Strings.nl.resx</DependentUpon>
       <AutoGen>True</AutoGen>
@@ -168,6 +173,9 @@
     <EmbeddedResource Include="EventLogViewer.it.resx">
       <DependentUpon>EventLogViewer.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="EventLogViewer.ja.resx">
+      <DependentUpon>EventLogViewer.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="EventLogViewer.nl.resx">
       <DependentUpon>EventLogViewer.vb</DependentUpon>
     </EmbeddedResource>
@@ -183,6 +191,11 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Strings.ja.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Strings.ja.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
     </EmbeddedResource>
     <EmbeddedResource Include="Strings.ar-JO.resx" />
     <EmbeddedResource Include="Strings.de.resx" />

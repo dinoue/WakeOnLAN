@@ -823,6 +823,7 @@
     </Compile>
     <Compile Include="Tracelog.vb" />
     <Compile Include="Wake.vb" />
+    <None Include="Resources\flags\japan_16x16.png" />
     <Content Include="Resources\view_text.ico" />
     <Content Include="SqlServerTypes\Loader.cs" />
     <Content Include="SqlServerTypes\readme.htm" />
