@@ -125,6 +125,8 @@ Public Class LanguageEditor : Inherits UITypeEditor
                 newImage = My.Resources.Flags.Hungary
             Case "it-IT"
                 newImage = My.Resources.Flags.Italy
+            Case "ja-JP"
+                newImage = My.Resources.Flags.Japan
             Case "nl-NL"
                 newImage = My.Resources.Flags.Netherlands
             Case "en-US"

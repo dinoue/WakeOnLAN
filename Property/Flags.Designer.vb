@@ -127,6 +127,16 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend Shared ReadOnly Property Japan() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Japan", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        '''</summary>
         Friend Shared ReadOnly Property Jordan() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("Jordan", resourceCulture)
