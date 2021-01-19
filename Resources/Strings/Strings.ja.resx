@@ -340,7 +340,7 @@
     <comment>Broadcast Address</comment>
   </data>
   <data name="Opt_BroadcastDesc" xml:space="preserve">
-    <value>Enter the broadcast IP Address for the WOL ブロードキャスト パケット で使う ブロードキャスト IP アドレスを入力してください。</value>
+    <value>ブロードキャスト IP アドレスを入力してください。</value>
     <comment>Enter the broadcast IP Address for the WOL broadcast packets.</comment>
   </data>
   <data name="Pausing" xml:space="preserve">

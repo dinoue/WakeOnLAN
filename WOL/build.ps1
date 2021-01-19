@@ -25,7 +25,7 @@ if($config -ne 'Release')
 
 Try
 {
-	$sgen = "${Env:ProgramFiles(x86)}\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools\sgen.exe"
+	$sgen = "${Env:ProgramFiles(x86)}\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools\sgen.exe"
 }
 Catch [system.exception]
 {

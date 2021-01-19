@@ -730,6 +730,7 @@ Partial Class Explorer
         resources.ApplyResources(Me.ContextMenuStripViews, "ContextMenuStripViews")
         Me.ContextMenuStripViews.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ListToolStripMenuItem1, Me.DetailsToolStripMenuItem1, Me.LargeIconsToolStripMenuItem1, Me.SmallIconsToolStripMenuItem1, Me.TileToolStripMenuItem1})
         Me.ContextMenuStripViews.Name = "ContextMenuStripViews"
+        Me.ContextMenuStripViews.OwnerItem = Me.ListViewToolStripButton
         Me.ContextMenuStripViews.ShowCheckMargin = True
         Me.ContextMenuStripViews.ShowImageMargin = False
         Me.ToolTip.SetToolTip(Me.ContextMenuStripViews, resources.GetString("ContextMenuStripViews.ToolTip"))
