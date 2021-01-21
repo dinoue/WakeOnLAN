@@ -37,6 +37,7 @@ Partial Class ReportViewer
         Me.ReportViewer1.LocalReport.DataSources.Add(ReportDataSource1)
         Me.ReportViewer1.LocalReport.ReportEmbeddedResource = "WakeOnLan.Report2.rdlc"
         Me.ReportViewer1.Name = "ReportViewer1"
+        Me.ReportViewer1.ServerReport.BearerToken = Nothing
         '
         'MachinesDS
         '

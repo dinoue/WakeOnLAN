@@ -124,10 +124,10 @@
     <value>イベント ID</value>
   </data>
   <data name="col_Message" xml:space="preserve">
-    <value>Message</value>
+    <value>メッセージ</value>
   </data>
   <data name="col_Type" xml:space="preserve">
-    <value>Type</value>
+    <value>種類</value>
   </data>
   <data name="Errors" xml:space="preserve">
     <value>エラー {0}</value>

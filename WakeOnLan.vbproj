@@ -1024,6 +1024,9 @@
     <EmbeddedResource Include="Report\ReportViewer.it.resx">
       <DependentUpon>ReportViewer.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Report\ReportViewer.ja.resx">
+      <DependentUpon>ReportViewer.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Report\ReportViewer.ru.resx">
       <DependentUpon>ReportViewer.vb</DependentUpon>
     </EmbeddedResource>
@@ -1031,6 +1034,7 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Strings.ja.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\Strings\Strings.ar-JO.resx">
       <Generator>ResXFileCodeGenerator</Generator>

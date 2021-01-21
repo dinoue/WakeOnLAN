@@ -325,14 +325,14 @@
     <value>はい</value>
   </data>
   <data name="lit_Unknown" xml:space="preserve">
-    <value>Unknown</value>
+    <value>不明</value>
   </data>
   <data name="OffLine" xml:space="preserve">
-    <value>ホストは切断中</value>
+    <value>切断</value>
     <comment>Host is OFFLINE</comment>
   </data>
   <data name="OnLine" xml:space="preserve">
-    <value>ホストは接続中</value>
+    <value>接続中</value>
     <comment>Host is ONLINE</comment>
   </data>
   <data name="Opt_BroadcastAddress" xml:space="preserve">

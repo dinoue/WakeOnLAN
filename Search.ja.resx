@@ -154,6 +154,9 @@
   <data name="gbSearch.Text" xml:space="preserve">
     <value>コンピューターの検索</value>
   </data>
+  <data name="ToolStripStatusLabel_spacer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>750, 17</value>
+  </data>
   <data name="LabelDescription.Text" xml:space="preserve">
     <value>目的のコンピューターにチェックを入れ、OK をクリックするとデータベースに追加されます。</value>
   </data>
