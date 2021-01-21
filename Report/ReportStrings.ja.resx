@@ -121,7 +121,7 @@
     <value>ブロードキャスト</value>
   </data>
   <data name="RepEmergency" xml:space="preserve">
-    <value>緊急シャットダウン?</value>
+    <value>緊急シャットダウン</value>
     <comment>Emergency shutdown?</comment>
   </data>
   <data name="RepGroup" xml:space="preserve">
