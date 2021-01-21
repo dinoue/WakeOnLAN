@@ -41,7 +41,7 @@ if($config -eq 'Install')
 	Try
 	{
 		# build the installer
-		& "${Env:ProgramFiles(x86)}\Inno Setup 5\iscc" /Q "$source\installer\WakeOnLAN-checked.iss"
+		& "${Env:ProgramFiles(x86)}\Inno Setup 6\iscc" /Q "$source\installer\WakeOnLAN-checked.iss"
 	}
 	Catch [system.exception]
 	{
